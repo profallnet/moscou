@@ -8,8 +8,6 @@ body {
   min-height: 100vh;
   max-height: auto;
   font-family: 'Roboto', sans-serif;
-  background-color: #2980b9;
-}
 
 header {
   background-color: rgb(84, 148, 111);
