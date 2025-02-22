@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: rgb(84, 148, 111);
+  background-color: blueviolet;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,7 +77,6 @@ footer {
   display: flex;
   justify-content: center;
 }
-
 h4 {
   color: white;
 }
@@ -86,6 +85,8 @@ h4 {
   height: 50vh;
   width: 100%;
 }
+
+
 
 /* Slide -------------------------------------------------------------------------*/
 
@@ -114,9 +115,9 @@ h4 {
   font-size: 3em;
 }
 
-.tela {
-  width: 100%;
+.bannerS {
   height: 100%;
+  width: 100%;
 }
 
 #one {
@@ -152,47 +153,27 @@ h4 {
   z-index: 9;
 }
 
-/*--------------------------------------------------*/
-@media (max-width: 600px) {
-  button {
-    height: 8vw;
-    width: 20vw;
-    border-radius: 10px;
-    background-color: rgb(206, 172, 237);
-  }
+/* Mobile -------------------------------- */ 
+@media ( max-width: 600px) {
+h1 {
+  display: none;
+}
+.direita {
+  width: 65vw;
+}
+button {
+  height: 8vw;
+  min-width:20vw;
+  border-radius: 10px;
+  background-color: rgb(206, 172, 237);
+}
 
-  button:hover {
-    height: 4vw;
-    width: 8vw;
-    border-radius: 10px;
-    background-color: rgb(88, 33, 140);
-    color: white;
-  }
+button:hover {
+  height: 8vw;
+  min-width:20vw;
+  border-radius: 10px;
+  background-color: rgb(88, 33, 140);
+  color: white;
+}
 
-  .direita {
-    width: 65vw;
-
-  }
-
-  h1 {
-    display: none;
-
-  }
-
-  .logo {
-    border-radius: 50%;
-  }
-
-  .postagem {
-    width: 95vw;
-    margin-top: 10vh;
-    background-color: blueviolet;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10vh;
-    padding-bottom: 5vh;
-  }
 }
